@@ -1,0 +1,118 @@
+.main-navigation .menu > li > a::after {
+  content: none;
+}
+
+.headerbild {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 a:link, nav a:visited, nav a:active {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 10px;
+    background-color: #000000
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+}
+
+h1 a:hover {
+    color: white;
+    background-color: #000000
+    transition: all 0.3s ease-out 0s;
+}
+
+IMG.headerbild {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+IMG.headerbild {
+    border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #fed9e7;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    list-style-type: none;
+    display: inline;
+    align: center;
+    color: #fed9e7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.sf-menu {
+   list-style: none;
+   list-style-type: none;
+   padding: 2px;
+}
+
+.sf-menu ul {
+   list-style: none;
+   list-style-type: none;
+   padding: 2px;
+}
+
+nav a:hover, a:active {
+    color: #000000;
+    background-color: #fed9e7
+    transition: all 0.9s ease-out 0s;
+}
+nav a:link, a:visited {
+    color: #000000;
+    padding-bottom: 2px;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+    }
+
+nav a:link, nav a:visited, nav a:active {
+    color: #565656;
+    background-color: #000000
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+}
+
+
+#contentfeld_container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #666;
+  background: green;
+  }
+
+a:link {color: green;}
+a:visited {color: blue;}
+a:hover {color: red;}
+a:active {color: pink;}
+
+
+  #mittelfeld {
+    background: #fed9e7 none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 730px;
+}
