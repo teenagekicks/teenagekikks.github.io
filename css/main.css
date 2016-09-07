@@ -77,42 +77,54 @@ nav a {
    padding: 2px;
 }
 
-nav a:hover, a:active {
-    color: #000000;
-    background-color: #fed9e7
-    transition: all 0.9s ease-out 0s;
-}
 nav a:link, a:visited {
     color: #000000;
     padding-bottom: 2px;
-    text-decoration: none;
+    font-weight: bold;
     transition: all 0.3s ease-out 0s;
     }
 
 nav a:link, nav a:visited, nav a:active {
-    color: #565656;
-    background-color: #000000
-    text-decoration: none;
+    color: black;
+    font-weight: bold;
     transition: all 0.3s ease-out 0s;
 }
 
+nav a:hover {
+    color: grey;
+    background-color: #fed9e7
+    font-weight: normal;
+    transition: all 0.3s ease-out 0s;
+}
 
 #contentfeld_container {
   width: 80%;
+  padding-top: 900px;
   margin: auto;
   padding: 20px;
   border: 1px solid #666;
   background: green;
   }
 
-a:link {color: green;}
-a:visited {color: blue;}
-a:hover {color: red;}
-a:active {color: pink;}
-
 
   #mittelfeld {
     background: #fed9e7 none repeat scroll 0 0;
     margin: 0 auto;
     width: 730px;
+    padding-bottom: 900px;
+}
+
+.dialog /* FF 3.5+*/ {
+-moz-column-count: 2;
+-moz-column-gap: 16px;
+-moz-column-rule: none;
+/*Saf3, Chrome*/
+-webkit-column-count: 2;
+-webkit-column-gap: 16px;
+-webkit-column-rule: none;
+column-count: 2;
+column-gap: 16px;
+column-rule: none;
+padding-left: 0px;
+padding-right: 170px;
 }
