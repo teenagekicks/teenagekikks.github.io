@@ -127,17 +127,7 @@ nav a:hover, nav a:active {
     padding-bottom: 900px;
 }
 
-.dialog /* FF 3.5+*/ {
--moz-column-count: 2;
--moz-column-gap: 16px;
--moz-column-rule: none;
-/*Saf3, Chrome*/
--webkit-column-count: 2;
--webkit-column-gap: 16px;
--webkit-column-rule: none;
-column-count: 2;
-column-gap: 16px;
-column-rule: none;
-padding-left: 0px;
-padding-right: 170px;
+  .wir_foto {
+    padding-top: 4px;
+    padding-bottom: 0px
 }
