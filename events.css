@@ -139,3 +139,9 @@ nav a:hover, nav a:active {
     line-height: 10cm;
     border: 2px solid white;
 }
+
+.kk_events1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
