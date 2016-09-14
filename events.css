@@ -77,7 +77,6 @@ nav a {
     align: center;
     color: #fed9e7;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -133,10 +132,9 @@ nav a:hover, nav a:active {
     padding-bottom: 900px;
 }
 
-.kk_events_wrapper {
-
-    margin: 500px 500px 500px 500px;
+#kk_events_wrapper {
     padding-bottom: 66.67%;
+    padding-top: 40.2px;
     display: inline;
     line-height: 10cm;
     border: 2px solid white;
