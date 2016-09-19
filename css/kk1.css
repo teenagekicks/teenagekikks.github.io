@@ -1,0 +1,77 @@
+.kukiheader {
+  text-align: center;
+  padding-top: 40.2px;
+}
+
+.kukitext {
+  text-align: center;
+}
+
+.foto {
+  padding-top: 40px;
+  padding-bottom: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fb-tilt {
+  padding-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.fb-tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+nav a:link, a:visited {
+    color: #000000;
+    padding-bottom: 2px;
+    font-weight: bold;
+    transition: all 0.3s ease-out 0s;
+    }
+
+nav a:link, nav a:visited {
+    color: black;
+    transition: all 0.3s ease-out 0s;
+}
+
+nav a:hover, nav a:active {
+    color: white;
+    background-color: #fed9e7;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:link#stuffs {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited#stuffs {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover#stuffs {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active#stuffs {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
