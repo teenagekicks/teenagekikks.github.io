@@ -46,10 +46,10 @@ IMG.headerbild {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
-img:hover {
+/* img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-}
+} */
 
 ul {
     list-style-type: none;

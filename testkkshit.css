@@ -1,6 +1,6 @@
 /* Style the Image Used to Trigger the Modal */
 #myImg {
-   border-radius: 50%;
+   border-radius: 0%;
    cursor: pointer;
    transition: 0.3s;
 }
